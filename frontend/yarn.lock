@@ -3828,7 +3828,7 @@ __metadata:
   resolution: "@streamlit/protobuf@workspace:protobuf"
   dependencies:
     protobufjs: "npm:^8.4.0"
-    protobufjs-cli: "npm:^2.4.0"
+    protobufjs-cli: "npm:^2.4.1"
     typesync: "npm:^0.14.3"
   languageName: unknown
   linkType: soft
@@ -15139,9 +15139,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"protobufjs-cli@npm:^2.4.0":
-  version: 2.4.0
-  resolution: "protobufjs-cli@npm:2.4.0"
+"protobufjs-cli@npm:^2.4.1":
+  version: 2.4.1
+  resolution: "protobufjs-cli@npm:2.4.1"
   dependencies:
     chalk: "npm:^4.0.0"
     escodegen: "npm:^1.13.0"
@@ -15154,12 +15154,12 @@ __metadata:
     tmp: "npm:^0.2.1"
     uglify-js: "npm:^3.7.7"
   peerDependencies:
-    protobufjs: ">=8.4.0 <9"
+    protobufjs: ^8.4.1
   bin:
     pbjs: bin/pbjs
     pbts: bin/pbts
     protoc-gen-pbjs: bin/protoc-gen-pbjs
-  checksum: 10c0/be846d235303eaac3e4fc8b6c01b340a6bccff8720573708d776a3279b02abe0a1c587f35adc64ffcc9c9dc9cf7913b374107125f067829cec47653f35d69cee
+  checksum: 10c0/c568130001a71832d717159e06c90c49c1e243daf0cb4838d5b8ee756918c97dfcdb7ceb574ba22648a79d36b23c7eac88a0ca909c534f05a77b5581a0b4ccd5
   languageName: node
   linkType: hard
 
