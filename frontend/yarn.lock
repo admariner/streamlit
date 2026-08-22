@@ -3442,7 +3442,7 @@ __metadata:
     "@testing-library/react": "npm:^16.3.2"
     "@testing-library/user-event": "npm:^14.6.4"
     "@types/d3-graphviz": "npm:^3.1.0"
-    "@types/hast": "npm:^3.0.0"
+    "@types/hast": "npm:^3.0.5"
     "@types/hoist-non-react-statics": "npm:~3.3.7"
     "@types/lodash-es": "npm:~4.17.12"
     "@types/mapbox-gl": "npm:~1.13.10"
@@ -3464,7 +3464,7 @@ __metadata:
     decamelize: "npm:^6.0.1"
     dompurify: "npm:^3.4.13"
     hoist-non-react-statics: "npm:^3.3.2"
-    hotkeys-js: "npm:^4.0.2"
+    hotkeys-js: "npm:^4.0.5"
     immer: "npm:^11.1.17"
     json5: "npm:^2.2.3"
     katex: "npm:^0.17.0"
@@ -4393,6 +4393,15 @@ __metadata:
   dependencies:
     "@types/unist": "npm:*"
   checksum: 10c0/3249781a511b38f1d330fd1e3344eed3c4e7ea8eff82e835d35da78e637480d36fad37a78be5a7aed8465d237ad0446abc1150859d0fde395354ea634decf9f7
+  languageName: node
+  linkType: hard
+
+"@types/hast@npm:^3.0.5":
+  version: 3.0.5
+  resolution: "@types/hast@npm:3.0.5"
+  dependencies:
+    "@types/unist": "npm:*"
+  checksum: 10c0/f3af8594a6903a507ed191eda944af18099198d6708c29102ae17118c3e20779f6929e91ed37e033541fd28d58055d8a5910a4366dbdf976cf81b13a464741fb
   languageName: node
   linkType: hard
 
@@ -9634,6 +9643,13 @@ __metadata:
   version: 4.0.2
   resolution: "hotkeys-js@npm:4.0.2"
   checksum: 10c0/0ecd64b9e2ed489878a980bd1a3700ab3424b68c3d9b5a422be9aae69c8c930553a1b66f6731ab9efcf73ba0b06baf2ff87aa8e4e0f84ff6f810fb2a731ff9c6
+  languageName: node
+  linkType: hard
+
+"hotkeys-js@npm:^4.0.5":
+  version: 4.0.5
+  resolution: "hotkeys-js@npm:4.0.5"
+  checksum: 10c0/541748a199e4908c091fd2a1a443b4d0741022558ed583b6ee191d5fa466930e17eb15cd2f5a0f741480775290547701305986ca55cc478b071259844e4dbbb5
   languageName: node
   linkType: hard
 
